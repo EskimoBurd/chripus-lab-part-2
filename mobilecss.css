@@ -1,0 +1,111 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+
+.text-container {
+    display: flex;
+}
+
+h1 {
+}
+
+p {
+    padding: 30px;
+    border-left: 3px solid #ccc;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-container {background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.scroll {color:white;
+    border: none;
+    background-color: black;
+    padding: 10px 20px;
+    font-size: inherit;
+    border-radius: 15px;
+}
+.hire {background-color: #000;
+    color: white;
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+
+}
+
+
+
+@media only screen and (min-width: 768px){
+
+nav, header {
+    flex-direction: row;
+}
+
+header {
+    justify-content: space-between;
+}
+
+nav {
+    justify-content: space-around;
+    width: 40%;
+}
+.orange {
+    background-color:rgba(247, 193, 162, 0.7);
+    position: absolute;
+    top: 41%;
+    left: 75%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.purple {
+    background-color: rgba(207, 130, 213, 0.6);
+    position: absolute;
+    top: 24%;
+    left: 79%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.maroon {
+    background-color: rgba(247, 136, 167, 0.6);
+    position: absolute;
+    top: 22%;
+    left: 52%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.text-container {
+    flex-direction: row;
+}
+.t-container {
+    width: 48%;
+}
+.relative {
+    width: 48%;
+}
+}
+
+@media only screen and (min-width: 1200px){
+
+}
